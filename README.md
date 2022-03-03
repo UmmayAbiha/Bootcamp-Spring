@@ -13,3 +13,6 @@ Questions:-
 (5) Demonstrate how you will resolve ambiguity while autowiring bean (Hint : @Primary)
 
 (6) Perform Constructor Injection in a Spring Bean
+
+--> Question 1 and 2 is in main branch
+--> Question 3,4,5 and 6 in master branch
