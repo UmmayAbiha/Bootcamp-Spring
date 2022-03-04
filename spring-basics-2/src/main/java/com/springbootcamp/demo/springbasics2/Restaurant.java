@@ -10,16 +10,15 @@ public class Restaurant {
 
     @Autowired
     HotDrinks hotDrinks;
-
-    public HotDrinks getHotDrinks() {
-        return hotDrinks;
-    }
-
-
-
+    
+    
     // Constructor injection --> Q6
     Restaurant(HotDrinks hotDrinks) {
         super();
         this.hotDrinks = hotDrinks;
+    }
+
+    public HotDrinks getHotDrinks() {
+        return hotDrinks;
     }
 }
